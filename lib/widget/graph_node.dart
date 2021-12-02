@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Item extends StatelessWidget {
   Color color;
@@ -38,7 +39,7 @@ class Item extends StatelessWidget {
           child: Center(
               child: Text(
             text,
-            style: TextStyle(fontSize: 20, color: Colors.black),
+            style: GoogleFonts.josefinSans(fontSize: 25, color: Colors.black),
           )),
           decoration: BoxDecoration(
             color: color,
